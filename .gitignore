@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+logs/
+cross_log/
+cross_cache/
+vectors/
+artifacts/
+*.log
+*.index
+*.meta
+*.pkl
+
+.idea/
+
+results/
+docs/
+
+# Publish zipped job feature datasets instead of raw CSV files.
+data/csv/job_features/*.csv
